@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Rui Zhi - Research & Development</title>
+  <title>Rui Zhi - Projects</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
@@ -19,22 +19,23 @@
   <ul class="nav nav-tabs">
   <li role="presentation"><a href="index.html">About Me</a></li>
   <li role="presentation"><a href="education.html">Education</a></li>
-  <li role="presentation" class="active"><a href="research.html">Research & Development</a></li>
+  <li role="presentation" class="active"><a href="research.html">Projects</a></li>
   <li role="presentation"><a href="interest.html">Interests</a></li>
   <li role="presentation"><a href="CV_RuiZhi.pdf">CV</a></li>
 </ul>
 </div>
 <div class="container">
-  <h2>Research & Development</h2>
+  <h2>Research & Course Projects</h2>
   <hr>
   <div class="row">
     <div class="col-sm-5 thumbnail">
       <img src="./project/HCI.jpg" class="img-responsive" alt="Responsive image">
     </div>
-    <div class="col-sm-7">
+    <div class="col-sm-6">
       <h3>Study Group Finder</h3>
+      <h4>2014.10-2014.12</h4>
       <p class="text_justify">
-        In the HCI course project, we build a group finder system.
+        In the HCI course project, we built a group finder system.
         I worked with Haiyu Yao, Yihuan Dong and Nakul Shukla on this system.
       </p>
       <p class="text_justify">
@@ -58,8 +59,9 @@
     <div class="col-sm-5 thumbnail">
       <img src="./project/face.jpg" class="img-responsive" alt="Responsive image">
     </div>
-    <div class="col-sm-7">
+    <div class="col-sm-6">
       <h3>3D Face Reconstruction Based on a Single Image</h3>
+      <h4>2013.09-2014.06</h4>
       <p class="text_justify">
         I worked as a research assistant in the State Key Laboratory at Chinese Academy of Sciences,
         working with
@@ -68,9 +70,22 @@
       </p>
       <p class="text_justify">
         In this project, I assisted with the development of 3D faces reconstruction based on a morphable model using Matlab.
+        In the system, the 3D human face can be built from a single 2D image. I use the
+        <a href="http://www.faceplusplus.com">
+          <span>FACE++</span>
+        </a> API to get the human face landmark
+        automatically. So the whole reconstructing process can be done automatically.
+         The average reconstruting time is 7s.
       </p>
       <p class="text_justify">
-        The interface is built using Matlab, the 3DMM picture is from
+        The interface is built by Matlab, the 3D face reconstruction process picture on the interface is from
+        <a href="http://dl.acm.org/citation.cfm?id=311556">
+          <span>Volker Blanz and Thomas Vetter's paper.</span>
+        </a>
+        The example 2D human face image is from
+        <a href="http://www2.imm.dtu.dk/~aam/">
+          <span>Active Appearance Models.</span>
+        </a>
       </p>
 
     </div>
@@ -79,32 +94,58 @@
 
   <hr>
   <div class="row">
-    <div class="col-sm-4 thumbnail">
-      <img src="./project/compiler.jpg" class="img-responsive" alt="Responsive image">
+    <div class="col-sm-5 thumbnail">
+      <img src="./project/compiler.png" class="img-responsive" alt="Responsive image">
     </div>
     <div class="col-sm-6">
-
+      <h3>Tiny C Compiler Lexical Analysis and Semantic Analysis</h3>
+      <h4>2013.03-2013.07</h4>
+      <p class="text_justify">
+        In the Compiler course project, we built a tiny C compiler using JAVA. I implemented
+        a Lexical Analyser by converting the regular
+        expressions to minimized Deterministic finite automation(DFA)
+        and a Syntax Analyser for LL(1) and LR(0) grammar.
+      </p>
     </div>
   </div>
 
 
   <hr>
   <div class="row">
-    <div class="col-sm-4 thumbnail">
+    <div class="col-sm-5 thumbnail">
       <img src="./project/DigitalRecognition.jpg" class="img-responsive" alt="Responsive image">
     </div>
     <div class="col-sm-6">
-      HCI course project
+      <h3>Digit-Recognition Based on Artificial Neural Network</h3>
+      <h4>2013.03-2013.06</h4>
+      <p class="text_justify">
+        In the Artificial Intelligence course project, we built simple digital number recognition system.
+        This system is based on Artificial Neural Network.
+        I built a predictor based on a 3-layer feed-forward neural network
+        using the resilient backpropagation algorithm.
+      </p>
+
     </div>
   </div>
 
   <hr>
   <div class="row">
-    <div class="col-sm-4 thumbnail">
+    <div class="col-sm-5 thumbnail">
       <img src="./project/WebDataExtraction.jpg" class="img-responsive" alt="Responsive image">
     </div>
     <div class="col-sm-6">
-      HCI course project
+      <h3>Personalized Information Service Based on Web Data Extraction and Analysis</h3>
+      <h4>2012.04-2013.04</h4>
+      <p class="text_justify">
+        In this research project, we built a web-based system which helps user extract the data on a website.
+        I worked with Dr.Junxia Guo on this system.
+      </p>
+      <p class="text_justify">
+        In this project, I researched algorithms such as
+         Breadth-first and Best-first to get the best order to access URL.
+          I wrote programs to collect web data extracted by the page
+          path and preserved them in different file formats according to personalization.
+      </p>
     </div>
   </div>
 </div>

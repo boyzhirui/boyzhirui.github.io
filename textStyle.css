@@ -8,3 +8,7 @@ h1,h2,h3,h4{
   font-family: maquette, 'Helvetica Neue', Helvetica, Arial, sans-serif, "Open Sans", arial, sans-serif;
   font-weight:300;
   }
+
+.listPub{
+  margin-bottom: 20px;
+}

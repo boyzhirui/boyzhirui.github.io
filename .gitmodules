@@ -1,0 +1,3 @@
+[submodule "project/bjc-r"]
+	path = project/bjc-r
+	url = https://github.com/boyzhirui/bjc-r.git
